@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+### Comandos Laravel
+
+1- php artisan make:model Todo -mcr  -> Crea el modelo,controlador  y el resource
+
+2- composer require laravel/sanctum
+3-php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
